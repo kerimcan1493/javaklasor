@@ -38,9 +38,5 @@ public class cinZodyagi {
         }
         System.out.println("Çin Burcunuz : "+zodiac);
 
-
-
-
-
     }
 }
