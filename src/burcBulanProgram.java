@@ -2,18 +2,18 @@ import java.util.Scanner;
 
 public class burcBulanProgram {
     public static void main(String[] args) {
-        Scanner imput = new Scanner(System.in);
+        Scanner input = new Scanner(System.in);
 
         int month, day;
         String burc = "";
         boolean isError = false;
 
         System.out.print("Kaçıncı ayda Doğduğunuzu Giriniz :");
-        month = imput.nextInt();
+        month = input.nextInt();
 
 
         System.out.print("Ayın Kaçında Doğdunuz : ");
-        day = imput.nextInt();
+        day = input.nextInt();
 
         if (month == 1) {
             if (day > 0 && day < 32) {
