@@ -6,10 +6,10 @@ public class artikYil {
         String artikyil="";
         boolean isError=false;
 
-        Scanner imput = new Scanner(System.in);
+        Scanner input = new Scanner(System.in);
 
         System.out.print("Lütfen bir yıl Giriniz  :  ");
-        year = imput.nextInt();
+        year = input.nextInt();
 
         if (year%4==0){
             if (year%100==0) {
