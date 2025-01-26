@@ -6,16 +6,16 @@ public class ucakBileti {
         double totalPrice = 0;
         boolean isError = false;
 
-        Scanner imput = new Scanner(System.in);
+        Scanner input = new Scanner(System.in);
 
         System.out.print("Mesafeyi giriniz : ");
-        km = imput.nextInt();
+        km = input.nextInt();
 
         if (km > 0) {
             totalPrice = km * 0.10;
 
             System.out.println("Yaş Aralığınız:\n 1-(0-11)\n2-(12-24)\n3-(24-65)\n4-(65+) ");
-            age = imput.nextInt();
+            age = input.nextInt();
 
             switch (age) {
                 case 1:
@@ -36,7 +36,7 @@ public class ucakBileti {
 
             }
             System.out.println("Yolculuk Tipini seçiniz :\n1-(Tek Yön)\n2-(Gidiş Dönüş)");
-            type = imput.nextInt();
+            type = input.nextInt();
 
             switch (type) {
                 case 1:

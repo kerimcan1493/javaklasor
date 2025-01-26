@@ -6,10 +6,10 @@ public class cinZodyagi {
         String zodiac="";
         boolean isError= false;
 
-        Scanner imput = new Scanner(System.in);
+        Scanner input = new Scanner(System.in);
 
         System.out.print("Doğum Yılınızı Giriniz : ");
-        year = imput.nextInt();
+        year = input.nextInt();
 
         if (year%12==0){
             zodiac ="Maymun";

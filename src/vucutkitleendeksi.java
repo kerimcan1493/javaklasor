@@ -3,15 +3,15 @@ import java.util.Scanner;
 public class vucutkitleendeksi {
     public static void main(String[] args) {
 
-        Scanner imput = new Scanner(System.in);
+        Scanner input = new Scanner(System.in);
 
         double kilo,boy,endeks;
 
         System.out.print("Lütfen Boyunuzu (metre cinsinden) giriniz :  ");
-        boy = imput.nextDouble();
+        boy = input.nextDouble();
 
         System.out.print("Lütfen Kilonuzu Giriniz  :  ");
-        kilo = imput.nextDouble();
+        kilo = input.nextDouble();
 
         endeks = kilo/(boy*boy);
         System.out.print("Vücet Kitle endeksiniz  :  "+endeks);

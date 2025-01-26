@@ -3,18 +3,18 @@ import java.util.Scanner;
 public class sayilariSiralama {
     public static void main(String[] args) {
 
-        Scanner imput = new Scanner(System.in);
+        Scanner input = new Scanner(System.in);
 
         int a,b,c;
 
         System.out.print("1.Sayıyı Giriniz : ");
-        a = imput.nextInt();
+        a = input.nextInt();
 
         System.out.print("2.Sayıyı Giriniz :");
-        b=imput.nextInt();
+        b=input.nextInt();
 
         System.out.print("3.Sayıyı Giriniz : ");
-        c=imput.nextInt();
+        c=input.nextInt();
 
         if (a<b && a<c){
             if (b<c){

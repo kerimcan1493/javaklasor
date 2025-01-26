@@ -2,19 +2,19 @@ import java.util.Scanner;
 
  class ucgenalan {
     public static void main(String[] args) {
-        Scanner imput = new Scanner(System.in);
+        Scanner input = new Scanner(System.in);
 
         int a,b,c;
         double u,alan;
 
         System.out.print("1.kenarı giriniz  :  ");
-        a=imput.nextInt();
+        a=input.nextInt();
 
         System.out.print("2.kenarı giriniz  :  ");
-        b=imput.nextInt();
+        b=input.nextInt();
 
         System.out.print("3.kenar giriniz  :  ");
-        c=imput.nextInt();
+        c=input.nextInt();
 
         u=(a+b+c)/2;
 

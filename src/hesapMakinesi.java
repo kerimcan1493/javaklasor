@@ -1,21 +1,21 @@
 import java.util.Scanner;
 
-public class hesapmakinesi {
+public class hesapMakinesi {
     public static void main(String[] args) {
 
-        Scanner imp = new Scanner(System.in);
+        Scanner inp = new Scanner(System.in);
 
         int n1, n2, select;
 
         System.out.print("Birinci Sayıyı Giriniz  :  ");
-        n1 = imp.nextInt();
+        n1 = inp.nextInt();
 
 
         System.out.print("İkinci Sayıyı Giriniz  :  ");
-        n2 = imp.nextInt();
+        n2 = inp.nextInt();
 
         System.out.println("Yaoacağınız işlem türünü seçiniz  : \n1-Toplama\n2-Çıkartma\n3-çarpma\n4-bölme");
-        select = imp.nextInt();
+        select = inp.nextInt();
 
         if (select == 1) {
             System.out.println("Toplam  :  " + (n1 + n2));

@@ -4,14 +4,14 @@ import java.util.Scanner;
 public class dairealan {
     public static void main(String[] args) {
 
-        Scanner imput = new Scanner(System.in);
+        Scanner input = new Scanner(System.in);
 
         double pi=3.14,radius,alan,cevre ;
 
 
         System.out.print("Yarıçap Değerini Giriniz  :  ");
 
-        radius = imput.nextDouble();
+        radius = input.nextDouble();
         alan = pi*radius*radius;
         cevre = 2*pi*radius;
 

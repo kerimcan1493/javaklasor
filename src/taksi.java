@@ -4,11 +4,11 @@ public class taksi {
     public static void main(String[] args) {
         double km,   tutar,   perkm=2.2 ,  startprice=10;
 
-        Scanner imput=new Scanner(System.in);
+        Scanner input=new Scanner(System.in);
 
         System.out.print("Kilometreyi Giriniz  :  ");
 
-        km=imput.nextDouble();
+        km=input.nextDouble();
 
         tutar = km*perkm+startprice;
 

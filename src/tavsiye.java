@@ -2,11 +2,11 @@ import java.util.Scanner;
 
 public class tavsiye {
     public static void main(String[] args) {
-        Scanner imput = new Scanner(System.in);
+        Scanner input = new Scanner(System.in);
         int temp;
 
         System.out.print("Hava Sıcaklığını Giriniz : ");
-        temp = imput.nextInt();
+        temp = input.nextInt();
 
         if (temp<5){
             System.out.print("Kayak Yapabilirsiniz.");
