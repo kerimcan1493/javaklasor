@@ -2,17 +2,17 @@ import java.util.Scanner;
 
 public class burcBulma {
     public static void main(String[] args) {
-        Scanner imput = new Scanner(System.in);
+        Scanner input = new Scanner(System.in);
         String burc = "";
         boolean isError = false;
 
         int month, day;
 
         System.out.print("Kaçıncı Ayda Doğduğunuzu Giriniz : ");
-        month = imput.nextInt();
+        month = input.nextInt();
 
         System.out.print("Ayın Kaçında Doğduğunuzu Giriniz : ");
-        day = imput.nextInt();
+        day = input.nextInt();
 
         switch (month) {
             case 1:
