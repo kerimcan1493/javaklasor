@@ -1,6 +1,6 @@
 import java.util.Scanner;
 
-public class odev39 {
+public class homework39 {
     public static void main(String[] args) {
         Scanner inp = new Scanner(System.in);
         int nmbr,total=0;
