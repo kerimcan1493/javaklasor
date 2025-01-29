@@ -1,9 +1,10 @@
-package homeworks;
+package Practices;
 
 import java.util.Scanner;
 public class HomeWork44 {
     public static void main(String[] args) {
         Scanner input = new Scanner(System.in);
+        // Harmonik Sayı
         int nmbr;
         double result=0;
 

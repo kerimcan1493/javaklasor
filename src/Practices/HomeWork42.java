@@ -1,9 +1,10 @@
-package homeworks;
+package Practices;
 
 import java.util.Scanner;
 
 public class HomeWork42 {
     public static void main(String[] args) {
+        // Üslü Sayıları Hesaplayan Program
         Scanner input = new Scanner(System.in);
         int a,b;
         int total=1;

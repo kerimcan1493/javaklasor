@@ -1,9 +1,10 @@
-package homeworks;
+package Practices;
 
 import java.util.Scanner;
 
 public class HomeWork41 {
     public static void main(String[] args) {
+        //Kombinasyon Hesaplayan Program
         Scanner input = new Scanner(System.in);
         int a,d,com;
         int total=1, totaltwo=1,totalthree=1;

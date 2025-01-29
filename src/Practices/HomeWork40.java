@@ -1,9 +1,10 @@
-package homeworks;
+package Practices;
 
 import java.util.Scanner;
 
 public class HomeWork40 {
     public static void main(String[] args) {
+        // 4'ün ve 5'in Kuvvetlerini bulan Program
         Scanner input = new Scanner(System.in);
 
         int nmbr,i=1,a=1;
