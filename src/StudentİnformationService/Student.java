@@ -1,4 +1,4 @@
-package ObjectOrientedProgramming;
+package StudentİnformationService;
 
 public class Student {
     String name;
