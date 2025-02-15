@@ -1,6 +1,6 @@
 package ObjectOrientedProgramming;
 
-public class Main {
+public class StudentİnformationService {
     public static void main(String[] args) {
         Teacher t1 = new Teacher("Kerim Can", "Spor", "123");
         Teacher t2 = new Teacher("Ahmet", "Fizik", "222");
