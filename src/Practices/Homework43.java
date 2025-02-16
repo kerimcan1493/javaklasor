@@ -12,7 +12,7 @@ public class Homework43 {
         int result=0, digitValue =0;
 
        while (nmbr != 0){
-            digitValue = nmbr % 10;
+           digitValue = nmbr % 10;
            nmbr/=10;
            result+=digitValue;
 

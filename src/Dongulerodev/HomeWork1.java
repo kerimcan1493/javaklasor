@@ -1,7 +1,7 @@
 package Dongulerodev;
 import java.util.Scanner;
 
-public class homework1 {
+public class HomeWork1 {
     public static void main(String[] args) {
         Scanner inp = new Scanner(System.in);
 
