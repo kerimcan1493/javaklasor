@@ -15,8 +15,6 @@ public class NumberEstimation {
         boolean isWin = false;
         boolean isIncorrect = false;
         int[] wrong = new int[5];
-        System.out.println(number);
-
 
         while (right < 5) {
             System.out.println("Please Enter Your Guess : ");
