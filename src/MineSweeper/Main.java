@@ -22,8 +22,8 @@ public class Main {
                 System.out.println();
 
             } else {
-                MineSweeper firstminer = new MineSweeper(row, column);
-                firstminer.run();
+                MineSweeper firstMiner = new MineSweeper(row, column);
+                firstMiner.run();
                 break;
             }
         }
